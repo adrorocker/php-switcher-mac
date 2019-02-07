@@ -1,7 +1,5 @@
 # PHP Switcher for Mac
 
-===
-
 ## Pre requisits
 
 - Homebrew
