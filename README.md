@@ -1,6 +1,6 @@
 # PHP Switcher for Mac
 
-## Pre requisits
+## Requirements
 
 - Homebrew
 - PHP installed through brew (7.1, 7.2 and 7.3)
@@ -15,7 +15,7 @@ brew install php@7.2
 brew install php@7.1
 ```
 
-Starth the services
+Start the services
 
 ```
 brew services start php
@@ -23,11 +23,11 @@ brew services start php@7.2
 brew services start php@7.1
 ```
 
-## Instrunctions	
+## Instructions	
 
 - In your `.bash_profile` file create a variable called `PHP_HOME`
 - Export the path: `export PATH=$PHP_HOME/bin:$PATH`
-- Give the script execution permissions and then move it to you bin folther so you can execute it as a global command.
+- Give the script execution permissions and then move it to you bin folder so you can execute it as a global command.
 
 ```bash
 chmod +x sphp.sh
